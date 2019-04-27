@@ -11,7 +11,7 @@
   {:position (v2 -0.5 0) :has-ball false})
 
 (def input-scale
-  0.25)
+  0.1875)
 
 (defn move [obj offset]
   (state+ obj :position (update (state obj :position) :position v2+ offset))
